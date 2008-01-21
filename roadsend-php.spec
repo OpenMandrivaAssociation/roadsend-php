@@ -11,6 +11,7 @@ URL:		http://code.roadsend.com/pcc/
 Source0:	http://code.roadsend.com/snaps/%{name}-%{version}.tar.bz2
 Patch0:		roadsend-php-mandriva_bigloo.diff
 BuildRequires:	bigloo-devel >= 3.0c
+BuildRequires:	curl-devel >= 7.15.1
 BuildRequires:	indent
 BuildRequires:	info-install
 BuildRequires:	libfcgi-devel
