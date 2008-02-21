@@ -3,8 +3,8 @@
 
 Summary:	The Roadsend PCC Compiler for PHP
 Name:		roadsend-php
-Version:	2.9.4
-Release:	%mkrel 0.1
+Version:	2.9.5
+Release:	%mkrel 1
 Group:		Development/PHP
 License:	GPLv2+
 URL:		http://code.roadsend.com/pcc/
