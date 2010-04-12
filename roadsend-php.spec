@@ -3,8 +3,8 @@
 
 Summary:	The Roadsend PCC Compiler for PHP
 Name:		roadsend-php
-Version:	2.9.5
-Release:	%mkrel 5
+Version:	2.9.8
+Release:	%mkrel 1
 Group:		Development/PHP
 License:	GPLv2+
 URL:		http://code.roadsend.com/pcc/
@@ -38,19 +38,12 @@ original PHP implementation.
 %prep
 
 %setup -q -n %{name}-%{version}
-%patch0 -p1
+#patch0 -p1
 
 %build
-export CFLAGS="%{optflags}"
-
-./configure \
-    --prefix=%{_prefix} \
-    --bindir=%{_bindir} \
+%configure2_5x \
     --libdir=%{_libdir}/pcc \
-    --sysconfdir=%{_sysconfdir} \
     --mandir=%{_mandir}/man1 \
-    --infodir=%{_infodir} \
-    --docdir=%{_docdir} \
     --with-pcre \
     --with-fcgi \
     --with-xml \
