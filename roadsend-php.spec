@@ -7,7 +7,7 @@ Version:	2.9.8
 Release:	7
 Group:		Development/PHP
 License:	GPLv2+
-URL:		http://code.roadsend.com/pcc/
+URL:		https://code.roadsend.com/pcc/
 Source0:	http://code.roadsend.com/snaps/%{name}-%{version}.tar.bz2
 BuildRequires:	bigloo-devel >= 3.0c
 BuildRequires:	curl-devel >= 7.15.1
